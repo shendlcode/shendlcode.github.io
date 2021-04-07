@@ -70,7 +70,14 @@ strong {
   
 
 </head>
-<body><header class="text-gray-700 body-font sticky top-0 bg-white z-10">
+<script>
+<!--if(window.location.pathname=='/'){-->
+<!--    window.location.href="/about/"-->
+<!--    }-->
+
+</script>
+
+    <body><header class="text-gray-700 body-font sticky top-0 bg-white z-10">
   <div
     class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
   >
@@ -106,6 +113,7 @@ strong {
 <section class="text-gray-700 body-font">
   <div class="container px-5 py-8 mx-auto  content ">
     <h1 class="text-2xl font-bold my-4">Entrepreneurship</h1>
+    
   <div class="post">
       <h1 id="entrepreneurship">Entrepreneurship</h1>
 
@@ -133,7 +141,7 @@ strong {
 
 
 <script>
-  const allTypes = ["all",  "books","projects","travels",];
+  const allTypes = ["all",  "小程序","解决方案","books","projects","travels",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 
