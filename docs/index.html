@@ -67,6 +67,124 @@ strong {
   color: #303030;
 }
 
+
+ 
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+ 
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+ 
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #b3555e;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+ 
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+ 
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+ul {list-style-type: circle;}
+li{
+    list-style-type:square;
+}
+
   </style>
 
 
@@ -116,13 +234,13 @@ strong {
  
       
       <a
-        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-小程序"
-        >小程序</a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-解决方案"
+        >解决方案</a
       >
       
       <a
-        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-解决方案"
-        >解决方案</a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-小程序"
+        >小程序</a
       >
       
 
@@ -153,6 +271,41 @@ strong {
       <a
         target="_blank"
         rel="noopener"
+        href="/%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/%e6%95%b0%e6%8d%ae%e5%8c%96%e8%bf%90%e8%90%a5%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/"
+        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg 解决方案"
+      >
+        <div class="rounded-lg h-64 overflow-hidden relative">
+          
+
+          <img
+            alt="数据化运营解决方案"
+            class="object-cover object-center h-full w-full"
+            src="/images/digitalMesh.jpg"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >解决方案</span>
+          
+          <p
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center flex justify-center items-center absolute top-0 left-0"
+           style="background-color:white;font-size:large;font-weight:bold;"
+          >
+            数据化运营解决方案
+          </p>
+          <p
+            class="text-black px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+         style="background-color:white" >
+            神笔数据化运营解决方案...
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
         href="/%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/%e7%bd%91%e7%ab%99%e5%bb%ba%e8%ae%be%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/"
         class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg 解决方案"
       >
@@ -178,7 +331,7 @@ strong {
           <p
             class="text-black px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
          style="background-color:white" >
-            网站建设解决方案...
+            神笔网站建设解决方案...
           </p>
         </div>
       </a>
@@ -358,7 +511,7 @@ strong {
 
 
 <script>
-  const allTypes = ["all",  "小程序","解决方案",];
+  const allTypes = ["all",  "解决方案","小程序",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 

@@ -66,6 +66,124 @@ strong {
   color: #303030;
 }
 
+
+ 
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+ 
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+ 
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #b3555e;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+ 
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+ 
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+ul {list-style-type: circle;}
+li{
+    list-style-type:square;
+}
+
   </style>
 
 
@@ -129,10 +247,16 @@ strong {
 <p>网站性能高。我们提供的网站对性能进行了优化，只需要低配的服务器即可支撑大量客户并发访问。</p>
 </li>
 <li>
-<p>部署简单。简单几步即可完成开发。</p>
+<p>部署简单。简单几步即可完成部署。</p>
 </li>
 <li>
 <p>支持自主动态修改网站。客户可以方便地更新网站内容。</p>
+</li>
+<li>
+<p>对搜索引擎进行了优化，方便搜索引擎索引网站。</p>
+</li>
+<li>
+<p>团队的经营非常丰富。曾经为多个大型金融机构提供过完整的数据化运营解决方案。</p>
 </li>
 </ol>
 <h4 id="期待与您合作">期待与您合作！</h4>
@@ -165,7 +289,7 @@ strong {
 
 
 <script>
-  const allTypes = ["all",  "小程序","解决方案",];
+  const allTypes = ["all",  "解决方案","小程序",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 
