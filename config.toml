@@ -1,4 +1,4 @@
-baseURL = "https://blog.shenbi.xyz/"
+baseURL = "https://www.shenbi.xyz/"
 languageCode = "zh-cn"
 title = "神笔网"
 Paginate = 1000
