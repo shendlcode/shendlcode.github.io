@@ -18,4 +18,14 @@ Exclude: true
 
 <font size="1">[良少课堂](https://blog.csdn.net/shendl) </font>
 
+<font size="1">[神笔Web应用](https://web.shenbi.xyz/) </font>
+
+
+<font size="1">[利率信息--全国银行间同业拆解中心](http://www.chinamoney.com.cn/chinese/mkdatapm/) </font>
+
+
+<font size="1">[汇率信息--中国外汇交易中心](http://www.chinamoney.com.cn/chinese/index.html) </font>
+
+<font size="1">[股市信息--巨潮咨询网](http://www.cninfo.com.cn/new/index) </font>
+
 
