@@ -1,5 +1,5 @@
-# shendl1978.github.com
-shendl1978.github.com  blog
+# shendlcode.github.com
+shendlcode.github.com  blog
 
 
 # Note
